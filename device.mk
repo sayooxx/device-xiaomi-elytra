@@ -64,6 +64,25 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
+# Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlaySweet \
+    DialerOverlaySweet \
+    FrameworkResOverlaySweet \
+    SettingsOverlay \
+    SettingsProviderOverlaySweet \
+    SystemUIOverlaySweet \
+    TelephonyOverlaySweet
+
+# Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_sweet/android.hardware.nfc.ese.xml \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_sweet/android.hardware.nfc.hcef.xml \

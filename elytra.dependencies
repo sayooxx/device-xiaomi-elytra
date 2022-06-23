@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "vendor_xiaomi_sweet",
+    "target_path": "vendor/xiaomi",
+    "branch": "scorch"
+  },
+  {
+    "repository": "kernel_xiaomi_sweet",
+    "target_path": "kernel/xiaomi/sweet",
+    "branch": "scorch"
+  }
+]

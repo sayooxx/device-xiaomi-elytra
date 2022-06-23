@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_sweet.mk
+    $(LOCAL_DIR)/elytra_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_sweet-user \
-    cherish_sweet-userdebug \
-    cherish_sweet-eng
+    elytra_sweet-user \
+    elytra_sweet-userdebug \
+    elytra_sweet-eng

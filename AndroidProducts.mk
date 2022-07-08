@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/elytra_sweet.mk
+    $(LOCAL_DIR)/sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    elytra_sweet-user \
-    elytra_sweet-userdebug \
-    elytra_sweet-eng
+    sweet-user \
+    sweet-userdebug \
+    sweet-eng
